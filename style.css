@@ -1,0 +1,93 @@
+/* =======================
+   Estilos Gerais da Página
+   ======================= */
+
+
+body {
+    margin: 0; /* Remove a margem padrão do navegador, deixando o conteúdo encostado nas bordas */
+    padding: 0; /* Remove o espaçamento interno padrão do body */
+    font-family: Tahoma, sans-serif; /* Define a fonte principal do site como Tahoma */
+    background-color: #e6e6e6; /* Define a cor de fundo da página como um cinza claro */
+    overflow-y: hidden;
+}
+
+
+/* ===========================
+   Seção de Patrocinadores
+   =========================== */
+
+.patrocinadores-section {
+    padding: 50px 20px; /* Adiciona espaçamento interno: 50px em cima/baixo e 20px nas laterais */
+    text-align: center; /* Centraliza o texto dentro da seção */
+}
+
+.patrocinadores-section h2 {
+    font-size: 32px; /* Define o tamanho da fonte do título */
+    margin-bottom: 40px; /* Adiciona espaço abaixo do título para separar dos boxes */
+}
+
+
+/* ========================================
+   Container com todos os patrocinadores
+   ======================================== */
+
+.patrocinadores-container {
+    display: flex; /* Ativa o Flexbox para organizar os elementos filhos em linha */
+    flex-wrap: wrap; /* Permite que os elementos que não cabem na linha atual quebrem para a próxima linha */
+    justify-content: center; /* Centraliza horizontalmente os elementos dentro do container */
+    gap: 20px; /* Adiciona espaço de 20px entre cada patrocinador */
+    height: 280px;
+
+
+}
+
+
+/* ========================================
+   Estilo individual de cada patrocinador
+   ======================================== */
+
+.patrocinador-box {
+    background-color: #ff7cab; /* Define a cor de fundo do box como rosa */
+    border-radius: 80px; /* Arredonda os cantos do box */
+    padding: 20px; /* Espaçamento interno do conteúdo dentro do box */
+    width: 220px; /* Largura fixa do box de patrocinador */
+    height: 250px; /* Altura fixa do box */
+    display: flex; /* Utiliza Flexbox dentro do box para centralizar a imagem */
+    align-items: center; /* Alinha a imagem verticalmente ao centro */
+    justify-content: center; /* Alinha a imagem horizontalmente ao centro */
+    /*margin: 0; /* Remove qualquer margem externa*/
+}
+
+.patrocinador-box img {
+    max-width: 100%; /* A imagem nunca vai ultrapassar a largura do box */
+    max-height: 100%; /* A imagem nunca vai ultrapassar a altura do box */
+    object-fit: contain; /* Mantém a proporção da imagem e a encaixa dentro do espaço sem cortar */
+    height: 195px;/*ajusta a altura da imagem*/
+    width:195px ;/*ajusta a largura da imagem*/
+}
+
+
+/* =====================
+   Rodapé da Página
+   ===================== */
+
+.rodape {
+     background-color: #f1f1f1; /* Comentado: definiria uma cor de fundo clara para o rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 15px; /* Adiciona espaçamento interno */
+    margin-top: 140px; /* Cria um espaço entre o conteúdo anterior e o rodapé */
+    color: #7e7e7e; /* Define a cor do texto como cinza */
+    font-size: 14px; /* Define o tamanho do texto no rodapé */ 
+    bottom: 0;
+}
+
+
+header{
+     padding:20px; /* Adiciona espaçamento interno: 50px em cima/baixo e 20px nas laterais */
+    text-align: center; /* Centraliza o texto dentro da seção */
+     font-size: 32px; /* Define o tamanho da fonte do título */
+    margin-bottom: 150px; /* Adiciona espaço abaixo do título para separar dos boxes */
+      background-color: #f1f1f1; /* Comentado: definiria uma cor de fundo clara para o rodapé */
+      
+    }
+
